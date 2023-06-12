@@ -1,0 +1,601 @@
+/* Cabeçalho */
+
+/* Area 1 */
+
+@font-face {
+  font-family: "Brandon Text";
+  src: url("font/BrandonText-Regular");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#area-1 {
+  background-color: rgba(18, 40, 76, 1);
+  font-family: "Brandon Text", sans-serif;
+}
+nav {
+  background-color: #12284c;
+  display: flex;
+  font-family: "Brandon Text", sans-serif;
+  height: 95px;
+  padding: 0px, 75px, 0px, 75px;
+  margin-bottom: 0px;
+}
+
+.border {
+  border-bottom: 1px solid gray;
+}
+
+ul {
+  list-style: none;
+  background-color: rgba(18, 40, 76, 1);
+}
+
+.logo {
+  height: 47px;
+  width: 170px;
+  margin-left: 75px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 0px;
+}
+
+.nav {
+  display: flex;
+  color: rgba(255, 255, 255, 1);
+  width: 132px;
+  height: 24px;
+  margin-top: 35.5px;
+  margin-left: 127.67px;
+  gap: 24px;
+}
+
+span {
+  color: rgba(0, 154, 191, 1);
+  width: 66px;
+  height: 24px;
+  margin-left: 4px;
+  gap: 24px;
+}
+
+.contraste {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  margin-bottom: 37.5px;
+}
+
+.grafico {
+  height: 19px;
+  width: 20px;
+  margin-bottom: 38.5px;
+  border-radius: 0px;
+}
+
+.acessibilidade {
+  width: 102px;
+  height: 24px;
+  margin-left: 127.67px;
+  margin-bottom: 35.5px;
+  font-weight: 390;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.a1 {
+  height: 11px;
+  width: 16px;
+  margin-left: 2px;
+  top: 4.5px;
+  border-radius: 0px;
+}
+
+.a2 {
+  height: 11px;
+  width: 14px;
+  margin-left: 3px;
+  top: 4.5px;
+  border-radius: 0px;
+}
+
+.flag {
+  width: 25px;
+  height: 25px;
+  margin-left: 127.67px;
+}
+
+.notification {
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+  padding: 1px;
+}
+
+.search {
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+  padding: 1px;
+}
+
+.menu {
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  margin-top: -10px;
+  padding: 5px;
+}
+
+/* Banner */
+
+main {
+  background-color: rgba(18, 40, 76, 1);
+}
+
+.banner-img {
+  width: 1089px;
+  height: 550px;
+  margin-left: 355px;
+  margin-top: -550px;
+  background-image: url(/images/banner-img.png);
+  background-size: cover;
+  background-position: center;
+  border-bottom: 4px solid rgba(0, 173, 187, 1);
+}
+
+.banner {
+  width: 624px;
+  height: 56px;
+  margin-top: 153px;
+  margin-left: 75px;
+  margin-right: 741px;
+  margin-bottom: 315px;
+  color: rgba(255, 255, 255, 1);
+}
+
+h1 {
+  width: 624px;
+  height: 56px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  font-style: normal;
+  background-color: rgba(18, 40, 76, 1);
+}
+
+.p-banner {
+  color: rgba(0, 173, 187, 1);
+  font-family: "Brandon Text", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.btn-saiba-mais {
+  border: 1px solid #ffffff;
+  height: 42px;
+  width: 129px;
+  border-radius: 2px;
+  padding: 8px 16px 8px 16px;
+  margin-top: 2px;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  color: rgba(252, 255, 255, 1);
+  font-weight: 500;
+  background-color: rgba(18, 40, 76, 1);
+}
+
+.seta-left {
+  width: 24px;
+  height: 24px;
+  margin-left: 78px;
+  border: none;
+  background-color: rgba(18, 40, 76, 1);
+}
+.seta-right {
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
+  border: none;
+  background-color: rgba(18, 40, 76, 1);
+}
+
+.textura-img {
+  width: 296px;
+  height: 52px;
+  margin-top: 209px;
+  margin-left: 128px;
+}
+
+/* Atalhos */
+
+.atalhos {
+  height: 4px;
+  margin-top: 320px;
+}
+
+.results {
+  width: 163px;
+  height: 138px;
+  margin-top: 496px;
+  margin-left: 206px;
+}
+
+.comunicados {
+  width: 170px;
+  height: 158px;
+  margin-top: -138px;
+  margin-left: 389px;
+  display: flex;
+}
+
+.apresentacoes {
+  width: 180px;
+  height: 158px;
+  margin-top: -158px;
+  margin-left: 559px;
+  display: flex;
+}
+
+.day {
+  width: 180px;
+  height: 158px;
+  margin-top: -158px;
+  margin-left: 734px;
+  display: flex;
+}
+
+.contato {
+  width: 180px;
+  height: 158px;
+  margin-top: -158px;
+  margin-left: 914px;
+  display: flex;
+}
+
+.mail {
+  width: 180px;
+  height: 158px;
+  margin-top: -158px;
+  margin-left: 1099px;
+  display: flex;
+}
+
+/* Institucional */
+
+.cards {
+  height: 474px;
+  display: flex;
+  padding: 0px;
+  align-items: flex-end;
+  flex: none;
+  margin-top: 60px;
+  position: relative;
+  background-color: #ffffff;
+}
+.quem-somos {
+  width: 369px;
+  height: 474px;
+  padding: 0px, 32px;
+  position: absolute;
+}
+
+.quem-somos:hover {
+  font-size: 3rem;
+  transform: translate(1px, -1px);
+}
+
+.unidades {
+  width: 360px;
+  height: 460px;
+  padding: 0px, 32px;
+  margin-left: 344px;
+  position: absolute;
+}
+
+.unidades:hover {
+  font-size: 3rem;
+  transform: translate(1px, -1px);
+}
+.estrategia {
+  width: 390px;
+  height: 468px;
+  padding: 0px, 32px;
+  margin-left: 673px;
+  margin-bottom: -08px;
+  position: absolute;
+}
+
+.estrategia:hover {
+  font-size: 3rem;
+  transform: translate(1px, -1px);
+}
+
+.impacto {
+  width: 369px;
+  height: 460px;
+  padding: 0px, 32px;
+  margin-left: 1033px;
+  margin-bottom: 0px;
+  position: absolute;
+}
+
+.impacto:hover {
+  font-size: 3rem;
+  transform: translate(1px, -1px);
+}
+.textura {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Area 2 */
+
+#area-2 {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Investidores */
+
+.investidores p {
+  color: #12284c;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 130;
+  font-family: "Brandon Text", sans-serif;
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: 75px;
+}
+
+#btn-setas {
+  display: flex;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#seta-left-gray {
+  width: 30px;
+  height: 30px;
+  margin-left: 282px;
+  border: none;
+  margin-top: 24px;
+}
+
+#seta-right-gray {
+  width: 30px;
+  height: 30px;
+  margin-left: 32px;
+  border: none;
+  margin-top: 24px;
+}
+
+#number-21 {
+  font-size: 34px;
+  font-weight: 390;
+  line-height: 24px;
+  align-items: center;
+  color: rgba(18, 40, 76, 1);
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 24px;
+}
+
+#number-1T {
+  font-size: 34px;
+  line-height: 33px;
+  align-items: center;
+  font-weight: 700;
+  color: rgba(18, 40, 76, 1);
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: 32px;
+  margin-top: 24px;
+}
+
+/* Box Icon */
+
+.itr {
+  width: 183.33px;
+  height: 88px;
+  border-radius: 2px;
+  margin-left: 75px;
+  margin-top: 30px;
+}
+
+.ap-resultados {
+  width: 183.33px;
+  height: 98px;
+  border-radius: 2px;
+  margin-top: 40px;
+  margin-left: 16px;
+}
+
+.release {
+  width: 183.33px;
+  height: 88px;
+  border-radius: 2px;
+  margin-top: 40px;
+  margin-left: 16px;
+}
+
+.planilha {
+  width: 183.33px;
+  height: 88px;
+  border-radius: 2px;
+  margin-left: 75px;
+  margin-top: 16px;
+}
+
+.call {
+  width: 183.33px;
+  height: 88px;
+  border-radius: 2px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+#detalhes {
+  width: 582px;
+  height: 24px;
+  font-family: "Brandon Text", sans-serif;
+  font-weight: 390;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 75px;
+  margin-top: 44px;
+  margin-bottom: 72px;
+  text-decoration: underline;
+}
+
+.calendario {
+  width: 624px;
+  height: 56px;
+  font-size: 40px;
+  font-weight: 330;
+  line-height: 56px;
+  color: rgba(18, 40, 76, 1);
+  margin-top: -497px;
+  float: right;
+}
+
+.data {
+  width: 624px;
+  height: 24px;
+  border-radius: 4px;
+  gap: 8px;
+  color: rgba(0, 173, 187, 1);
+  font-family: "Brandon Text", sans-serif;
+  font-weight: 390;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 25px;
+}
+
+#number-23 {
+  font-weight: 700;
+  margin-left: 2px;
+}
+
+.text {
+  width: 592px;
+  height: 24px;
+  font-family: "Brandon Text", sans-serif;
+  font-weight: 390;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 5px;
+}
+
+.hora {
+  width: 592px;
+  height: 24px;
+  font-family: "Brandon Text", sans-serif;
+  font-weight: 390;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(128, 128, 128, 1);
+  margin-top: 1px;
+}
+
+.gmail {
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  margin-left: 54px;
+}
+
+.outlook {
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  margin-left: 352px;
+  margin-top: 2px;
+}
+
+#detalhes2 {
+  height: 24px;
+  width: 624px;
+  font-family: "Brandon Text", sans-serif;
+  font-weight: 390;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(18, 40, 76, 1);
+  margin-top: 25px;
+  background-color: rgba(255, 255, 255, 1);
+  text-decoration: underline;
+}
+
+/* Footer */
+
+#rodape {
+  background: rgba(12, 27, 51, 1);
+  font-family: "Brandon Text", sans-serif;
+  height: 56px;
+}
+
+.copy {
+  margin-left: 75px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: rgba(0, 173, 187, 1);
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  font-weight: 545;
+}
+
+.p-footer {
+  display: flex;
+  float: right;
+  margin-right: 100px;
+  margin-top: 16px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 390;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.privacidade {
+  margin-left: 140px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.caractere {
+  margin-left: 16px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.condicoes {
+  margin-left: 16px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.trabalhe {
+  margin-left: 140px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.linkedin {
+  width: 24px;
+  height: 24px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.name {
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#dev {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+}
